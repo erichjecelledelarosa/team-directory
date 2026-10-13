@@ -1,7 +1,7 @@
 function AboutPage() {
   return (
     <section className="rounded-2xl bg-white p-8 shadow-sm dark:bg-slate-900">
-      <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">
+      <p className="text-sm font-semibold uppercase tracking-[0.2em] text-violet-500 dark:text-violet-300">
         About
       </p>
       <h1 className="mt-3 text-3xl font-bold">Our people make the difference</h1>

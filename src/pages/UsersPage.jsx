@@ -36,7 +36,7 @@ function UsersPage({
     <section>
       <div className="mb-6 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
         <div>
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-violet-500 dark:text-violet-300">
             Directory
           </p>
           <h1 className="mt-2 text-3xl font-bold">Our team</h1>
@@ -52,7 +52,7 @@ function UsersPage({
             value={searchTerm}
             onChange={(event) => onSearchChange(event.target.value)}
             placeholder="Search by name, email, role, or company"
-            className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-800 outline-none ring-0 transition focus:border-blue-500 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100"
+            className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-800 outline-none ring-0 transition focus:border-violet-400 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100"
           />
         </div>
       </div>

@@ -14,13 +14,13 @@ function UserDetailPage({ users, favorites, onToggleFavorite }) {
 
   return (
     <section className="mx-auto max-w-3xl rounded-2xl bg-white p-8 shadow-sm dark:bg-slate-900">
-      <Link to="/users" className="mb-6 inline-block text-sm font-medium text-blue-600 hover:underline dark:text-blue-400">
+      <Link to="/users" className="mb-6 inline-block text-sm font-medium text-violet-500 hover:underline dark:text-violet-300">
         ← Back to directory
       </Link>
 
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div>
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-violet-500 dark:text-violet-300">
             Profile
           </p>
           <h1 className="mt-2 text-3xl font-bold">{user.name}</h1>

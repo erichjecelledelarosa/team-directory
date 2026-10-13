@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 function HomePage({ favoritesCount }) {
   return (
     <section className="rounded-2xl bg-white p-8 shadow-sm dark:bg-slate-900">
-      <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">
+      <p className="text-sm font-semibold uppercase tracking-[0.2em] text-violet-500 dark:text-violet-300">
         Team directory
       </p>
       <h1 className="mt-4 text-4xl font-bold">Welcome to the team</h1>
@@ -15,7 +15,7 @@ function HomePage({ favoritesCount }) {
       <div className="mt-8 flex flex-wrap gap-4">
         <Link
           to="/users"
-          className="rounded-md bg-blue-600 px-5 py-3 font-medium text-white hover:bg-blue-500"
+          className="rounded-md bg-violet-400 px-5 py-3 font-medium text-white hover:bg-violet-500"
         >
           View team
         </Link>

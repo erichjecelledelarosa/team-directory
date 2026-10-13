@@ -7,7 +7,7 @@ function UserCard({ id, name, email, company, role, isFavorite, onToggleFavorite
       <div className="flex items-start justify-between gap-3">
         <div>
           <h3 className="text-xl font-bold">{name}</h3>
-          <p className="mt-1 text-sm text-blue-600 dark:text-blue-400">{role}</p>
+          <p className="mt-1 text-sm text-violet-500 dark:text-violet-300">{role}</p>
         </div>
       </div>
 
@@ -22,7 +22,7 @@ function UserCard({ id, name, email, company, role, isFavorite, onToggleFavorite
           onClick={onToggleFavorite}
           variant={isFavorite ? 'danger' : 'primary'}
         />
-        <Link to={`/users/${id}`} className="font-medium text-blue-600 underline-offset-2 hover:underline dark:text-blue-400">
+        <Link to={`/users/${id}`} className="font-medium text-violet-500 underline-offset-2 hover:underline dark:text-violet-300">
           View Details
         </Link>
       </div>
